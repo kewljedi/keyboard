@@ -1,0 +1,9 @@
+[submodule "KiCad/Libraries/kicad_lib_tmk"]
+	path = KiCad/Libraries/kicad_lib_tmk
+	url = https://github.com/tmk/kicad_lib_tmk
+[submodule "KiCad/Libraries/keyboard_parts.pretty"]
+	path = KiCad/Libraries/keyboard_parts.pretty
+	url = https://github.com/tmk/keyboard_parts.pretty
+[submodule "KiCad/Libraries/keebs.pretty"]
+	path = KiCad/Libraries/keebs.pretty
+	url = https://github.com/egladman/keebs.pretty

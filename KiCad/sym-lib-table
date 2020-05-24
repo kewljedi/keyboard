@@ -1,4 +1,7 @@
 (sym_lib_table
   (lib (name keyboardparts)(type Legacy)(uri ${KIPRJMOD}/Libraries/kicad_lib_tmk/keyboard_parts.lib)(options "")(descr ""))
   (lib (name other)(type Legacy)(uri ${KIPRJMOD}/Libraries/kicad_lib_tmk/mkl27z256vfm4.lib)(options "")(descr ""))
+  (lib (name SparkFun-Sensors)(type Legacy)(uri ${KIPRJMOD}/Libraries/SparkFun-KiCad-Libraries/Libraries/SparkFun-Sensors.lib)(options "")(descr ""))
+  (lib (name SparkFun-Electromechanical)(type Legacy)(uri ${KIPRJMOD}/Libraries/SparkFun-KiCad-Libraries/Libraries/SparkFun-Electromechanical.lib)(options "")(descr ""))
+  (lib (name SparkFun-Switches)(type Legacy)(uri ${KIPRJMOD}/Libraries/SparkFun-KiCad-Libraries/Libraries/SparkFun-Switches.lib)(options "")(descr ""))
 )

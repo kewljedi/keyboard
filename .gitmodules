@@ -7,3 +7,9 @@
 [submodule "KiCad/Libraries/keebs.pretty"]
 	path = KiCad/Libraries/keebs.pretty
 	url = https://github.com/egladman/keebs.pretty
+[submodule "KiCad/Libraries/digikey-kicad-library"]
+	path = KiCad/Libraries/digikey-kicad-library
+	url = https://github.com/Digi-Key/digikey-kicad-library.git
+[submodule "KiCad/Libraries/SparkFun-KiCad-Libraries"]
+	path = KiCad/Libraries/SparkFun-KiCad-Libraries
+	url = https://github.com/sparkfun/SparkFun-KiCad-Libraries.git

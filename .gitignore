@@ -20,3 +20,4 @@ _autosave-*
 *.csv
 
 .DS_Store
+KiCad/Keyboard.sch-bak

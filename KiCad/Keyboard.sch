@@ -604,17 +604,6 @@ F 3 "" H 6450 1250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D7
-U 1 1 5EC7C5CE
-P 6150 1450
-F 0 "D7" V 6196 1370 50  0000 R CNN
-F 1 "D" V 6105 1370 50  0000 R CNN
-F 2 "" H 6150 1450 50  0001 C CNN
-F 3 "~" H 6150 1450 50  0001 C CNN
-	1    6150 1450
-	0    -1   -1   0   
-$EndComp
-$Comp
 L keyboardparts:KEYSW K8
 U 1 1 5EC9188C
 P 1650 2050
@@ -1075,35 +1064,16 @@ NoConn ~ 5250 5800
 NoConn ~ 2400 6000
 Wire Wire Line
 	8850 6500 8850 6550
-NoConn ~ 3100 5600
-NoConn ~ 3100 6300
-NoConn ~ 3100 6400
-NoConn ~ 3100 6500
-NoConn ~ 3100 6600
-NoConn ~ 3100 6700
-NoConn ~ 3100 7500
-NoConn ~ 3100 7600
-NoConn ~ 3100 7700
-Text Label 5350 5900 0    50   ~ 0
+Text Label 5250 5900 0    50   ~ 0
 row1
-Text Label 5350 6000 0    50   ~ 0
+Text Label 5250 6000 0    50   ~ 0
 row2
-Text Label 5350 6100 0    50   ~ 0
+Text Label 5250 6100 0    50   ~ 0
 row3
-Text Label 5350 6200 0    50   ~ 0
+Text Label 5250 6200 0    50   ~ 0
 row4
-Text Label 5350 6300 0    50   ~ 0
+Text Label 5250 6300 0    50   ~ 0
 row5
-Wire Wire Line
-	5250 6300 5350 6300
-Wire Wire Line
-	5250 6200 5350 6200
-Wire Wire Line
-	5250 6100 5350 6100
-Wire Wire Line
-	5250 6000 5350 6000
-Wire Wire Line
-	5250 5900 5350 5900
 Wire Wire Line
 	1350 -6650 1750 -6650
 Wire Wire Line
@@ -1213,8 +1183,6 @@ $EndComp
 Wire Wire Line
 	6600 -6350 7100 -6350
 Wire Wire Line
-	-100 -6350 1050 -6350
-Wire Wire Line
 	200  -6650 750  -6650
 $Comp
 L LED:WS2812B UG2
@@ -1227,7 +1195,6 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1150 -7025 50  0001
 	1    1050 -6650
 	1    0    0    -1  
 $EndComp
-Connection ~ 1050 -6350
 Wire Wire Line
 	1050 -6350 2050 -6350
 $Comp
@@ -1381,34 +1348,18 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 12250 -7025 50  000
 	1    12150 -6650
 	1    0    0    -1  
 $EndComp
-Text Label 5350 6400 0    50   ~ 0
+Text Label 5250 6400 0    50   ~ 0
 col1
-Wire Wire Line
-	5250 6400 5350 6400
-Text Label 5350 6800 0    50   ~ 0
+Text Label 5250 6800 0    50   ~ 0
 col2
-Text Label 5350 6900 0    50   ~ 0
+Text Label 5250 6900 0    50   ~ 0
 col3
-Text Label 5350 7000 0    50   ~ 0
+Text Label 5250 7000 0    50   ~ 0
 col4
-Text Label 5350 7100 0    50   ~ 0
+Text Label 5250 7100 0    50   ~ 0
 col5
-Text Label 5350 7200 0    50   ~ 0
+Text Label 5250 7200 0    50   ~ 0
 col6
-Text Label 5350 7300 0    50   ~ 0
-col7
-Wire Wire Line
-	5250 6800 5350 6800
-Wire Wire Line
-	5250 6900 5350 6900
-Wire Wire Line
-	5250 7000 5350 7000
-Wire Wire Line
-	5250 7100 5350 7100
-Wire Wire Line
-	5250 7200 5350 7200
-Wire Wire Line
-	5250 7300 5350 7300
 $Comp
 L LED:WS2812B UG14
 U 1 1 5ED4CD48
@@ -1689,8 +1640,6 @@ Wire Wire Line
 Connection ~ 6600 -3650
 Wire Wire Line
 	6600 -3650 7100 -3650
-Wire Wire Line
-	3050 -3650 4100 -3650
 $Comp
 L LED:WS2812B KG16
 U 1 1 5EDC4867
@@ -1702,7 +1651,6 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4200 -4325 50  0001
 	1    4100 -3950
 	1    0    0    -1  
 $EndComp
-Connection ~ 4100 -3650
 Wire Wire Line
 	4100 -3650 5100 -3650
 $Comp
@@ -1786,12 +1734,6 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10250 -4325 50  000
 	1    10150 -3950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	13400 -6650 13400 -5950
-Wire Wire Line
-	13400 -5950 -400 -5950
-Wire Wire Line
-	-400 -5950 -400 -5300
 Wire Wire Line
 	13400 -5300 13400 -4600
 Wire Wire Line
@@ -2036,55 +1978,47 @@ Wire Wire Line
 $Comp
 L power:VCC #PWR0128
 U 1 1 5F7B302B
-P 2750 -2100
-F 0 "#PWR0128" H 2750 -2250 50  0001 C CNN
-F 1 "VCC" H 2765 -1927 50  0000 C CNN
-F 2 "" H 2750 -2100 50  0001 C CNN
-F 3 "" H 2750 -2100 50  0001 C CNN
-	1    2750 -2100
+P 2750 -2000
+F 0 "#PWR0128" H 2750 -2150 50  0001 C CNN
+F 1 "VCC" H 2765 -1827 50  0000 C CNN
+F 2 "" H 2750 -2000 50  0001 C CNN
+F 3 "" H 2750 -2000 50  0001 C CNN
+	1    2750 -2000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2750 -2100 2750 -2000
 $Comp
 L power:VCC #PWR0129
 U 1 1 5F7E9A55
-P 4800 -2100
-F 0 "#PWR0129" H 4800 -2250 50  0001 C CNN
-F 1 "VCC" H 4815 -1927 50  0000 C CNN
-F 2 "" H 4800 -2100 50  0001 C CNN
-F 3 "" H 4800 -2100 50  0001 C CNN
-	1    4800 -2100
+P 4800 -2000
+F 0 "#PWR0129" H 4800 -2150 50  0001 C CNN
+F 1 "VCC" H 4815 -1827 50  0000 C CNN
+F 2 "" H 4800 -2000 50  0001 C CNN
+F 3 "" H 4800 -2000 50  0001 C CNN
+	1    4800 -2000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR0130
 U 1 1 5F7EA995
-P 7000 -2100
-F 0 "#PWR0130" H 7000 -2250 50  0001 C CNN
-F 1 "VCC" H 7015 -1927 50  0000 C CNN
-F 2 "" H 7000 -2100 50  0001 C CNN
-F 3 "" H 7000 -2100 50  0001 C CNN
-	1    7000 -2100
+P 7000 -2000
+F 0 "#PWR0130" H 7000 -2150 50  0001 C CNN
+F 1 "VCC" H 7015 -1827 50  0000 C CNN
+F 2 "" H 7000 -2000 50  0001 C CNN
+F 3 "" H 7000 -2000 50  0001 C CNN
+	1    7000 -2000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7000 -2100 7000 -2000
-Wire Wire Line
-	4800 -2100 4800 -2000
-Text Label -850 -6650 0    50   ~ 0
+Text Label -400 -5300 2    50   ~ 0
 RGBMatrix
-Wire Wire Line
-	-850 -6650 -400 -6650
 $Comp
 L keyboardparts:GND #PWR0131
 U 1 1 5F8629C0
-P 3050 -650
-F 0 "#PWR0131" H 3050 -600 20  0001 C CNN
-F 1 "GND" H 3050 -591 30  0000 C CNN
-F 2 "" H 3050 -650 60  0000 C CNN
-F 3 "" H 3050 -650 60  0000 C CNN
-	1    3050 -650
+P 3050 -800
+F 0 "#PWR0131" H 3050 -750 20  0001 C CNN
+F 1 "GND" H 3050 -741 30  0000 C CNN
+F 2 "" H 3050 -800 60  0000 C CNN
+F 3 "" H 3050 -800 60  0000 C CNN
+	1    3050 -800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2101,44 +2035,36 @@ $EndComp
 $Comp
 L keyboardparts:GND #PWR0133
 U 1 1 5F86487E
-P 7300 -650
-F 0 "#PWR0133" H 7300 -600 20  0001 C CNN
-F 1 "GND" H 7300 -591 30  0000 C CNN
-F 2 "" H 7300 -650 60  0000 C CNN
-F 3 "" H 7300 -650 60  0000 C CNN
-	1    7300 -650
+P 7300 -800
+F 0 "#PWR0133" H 7300 -750 20  0001 C CNN
+F 1 "GND" H 7300 -741 30  0000 C CNN
+F 2 "" H 7300 -800 60  0000 C CNN
+F 3 "" H 7300 -800 60  0000 C CNN
+	1    7300 -800
 	1    0    0    -1  
 $EndComp
 $Comp
 L keyboardparts:GND #PWR0134
 U 1 1 5F8657F2
-P 9550 -650
-F 0 "#PWR0134" H 9550 -600 20  0001 C CNN
-F 1 "GND" H 9550 -591 30  0000 C CNN
-F 2 "" H 9550 -650 60  0000 C CNN
-F 3 "" H 9550 -650 60  0000 C CNN
-	1    9550 -650
+P 9550 -800
+F 0 "#PWR0134" H 9550 -750 20  0001 C CNN
+F 1 "GND" H 9550 -741 30  0000 C CNN
+F 2 "" H 9550 -800 60  0000 C CNN
+F 3 "" H 9550 -800 60  0000 C CNN
+	1    9550 -800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9550 -800 9550 -650
-Wire Wire Line
-	7300 -800 7300 -650
-Wire Wire Line
-	3050 -800 3050 -650
 $Comp
 L power:VCC #PWR0135
 U 1 1 5F8DA037
-P 9250 -2100
-F 0 "#PWR0135" H 9250 -2250 50  0001 C CNN
-F 1 "VCC" H 9265 -1927 50  0000 C CNN
-F 2 "" H 9250 -2100 50  0001 C CNN
-F 3 "" H 9250 -2100 50  0001 C CNN
-	1    9250 -2100
+P 9250 -2000
+F 0 "#PWR0135" H 9250 -2150 50  0001 C CNN
+F 1 "VCC" H 9265 -1827 50  0000 C CNN
+F 2 "" H 9250 -2000 50  0001 C CNN
+F 3 "" H 9250 -2000 50  0001 C CNN
+	1    9250 -2000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9250 -2100 9250 -2000
 Wire Wire Line
 	9750 -2000 9750 -2100
 Wire Wire Line
@@ -3790,14 +3716,6 @@ F 3 "" H 8000 5300 60  0000 C CNN
 	1    8000 5300
 	0    1    1    0   
 $EndComp
-Text Label 7750 5100 0    50   ~ 0
-SCL
-Text Label 7750 5000 0    50   ~ 0
-SDA
-Wire Wire Line
-	7750 5000 8000 5000
-Wire Wire Line
-	7750 5100 8000 5100
 Text Label 2900 7300 0    50   ~ 0
 SCL
 Text Label 2900 7400 0    50   ~ 0
@@ -3807,10 +3725,10 @@ Wire Wire Line
 Wire Wire Line
 	2900 7300 3100 7300
 $Comp
-L Device:Speaker LS?
+L Device:Speaker LS1
 U 1 1 5ED5E190
 P 9100 3250
-F 0 "LS?" H 9270 3246 50  0000 L CNN
+F 0 "LS1" H 9270 3246 50  0000 L CNN
 F 1 "Speaker" H 9270 3155 50  0000 L CNN
 F 2 "" H 9100 3050 50  0001 C CNN
 F 3 "~" H 9090 3200 50  0001 C CNN
@@ -3818,10 +3736,10 @@ F 3 "~" H 9090 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0182
 U 1 1 5ED624DD
 P 8900 3250
-F 0 "#PWR?" H 8900 3100 50  0001 C CNN
+F 0 "#PWR0182" H 8900 3100 50  0001 C CNN
 F 1 "VCC" H 8915 3423 50  0000 C CNN
 F 2 "" H 8900 3250 50  0001 C CNN
 F 3 "" H 8900 3250 50  0001 C CNN
@@ -3829,21 +3747,10 @@ F 3 "" H 8900 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:2N3904 Q?
-U 1 1 5ED68454
-P 8800 3550
-F 0 "Q?" H 8990 3596 50  0000 L CNN
-F 1 "2N3904" H 8990 3505 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9000 3475 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 8800 3550 50  0001 L CNN
-	1    8800 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L keyboardparts:GND #PWR?
+L keyboardparts:GND #PWR0183
 U 1 1 5ED6ABA3
 P 8900 3750
-F 0 "#PWR?" H 8900 3800 20  0001 C CNN
+F 0 "#PWR0183" H 8900 3800 20  0001 C CNN
 F 1 "GND" H 8900 3809 30  0000 C CNN
 F 2 "" H 8900 3750 60  0000 C CNN
 F 3 "" H 8900 3750 60  0000 C CNN
@@ -3854,15 +3761,13 @@ Text Notes 8450 2900 0    50   ~ 0
 Sounds/Music
 Text Notes 8100 4600 0    50   ~ 0
 Haptic Feedback
-Text Label 7750 3550 0    50   ~ 0
+Text Label 8200 3550 2    50   ~ 0
 PWMSound
-Wire Wire Line
-	7750 3550 8200 3550
 $Comp
-L Device:R_Small R?
+L Device:R_Small R-SOUND1
 U 1 1 5EEF2D57
 P 8300 3550
-F 0 "R?" V 8104 3550 50  0000 C CNN
+F 0 "R-SOUND1" V 8104 3550 50  0000 C CNN
 F 1 "220R" V 8195 3550 50  0000 C CNN
 F 2 "" H 8300 3550 50  0001 C CNN
 F 3 "~" H 8300 3550 50  0001 C CNN
@@ -3876,16 +3781,14 @@ PWMSound
 Text Notes 1100 700  0    50   ~ 0
 Keyboard
 NoConn ~ 8000 5400
-NoConn ~ 11550 2250
 NoConn ~ 8200 8450
-NoConn ~ 5850 7550
 Text Label 5250 7500 0    50   ~ 0
 RGBMatrix
 $Comp
-L Device:D_Small D?
+L Device:D_Small D-ENC1
 U 1 1 5EEB3BBF
 P 1350 3100
-F 0 "D?" V 1396 3020 50  0000 R CNN
+F 0 "D-ENC1" V 1396 3020 50  0000 R CNN
 F 1 "D" V 1305 3020 50  0000 R CNN
 F 2 "" H 1350 3100 50  0001 C CNN
 F 3 "~" H 1350 3100 50  0001 C CNN
@@ -3903,21 +3806,10 @@ Wire Wire Line
 Text Label 3350 -2000 0    50   ~ 0
 ENC1_PB
 $Comp
-L Transistor_BJT:2N3904 Q?
-U 1 1 5EFFE112
-P 1300 4350
-F 0 "Q?" H 1490 4396 50  0000 L CNN
-F 1 "2N3904" H 1490 4305 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 1500 4275 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 1300 4350 50  0001 L CNN
-	1    1300 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D?
+L Device:D_Small D-ENC3
 U 1 1 5EFFEDEE
 P 1400 4650
-F 0 "D?" V 1446 4570 50  0000 R CNN
+F 0 "D-ENC3" V 1446 4570 50  0000 R CNN
 F 1 "D" V 1355 4570 50  0000 R CNN
 F 2 "" H 1400 4650 50  0001 C CNN
 F 3 "~" H 1400 4650 50  0001 C CNN
@@ -3933,21 +3825,10 @@ Wire Wire Line
 	1950 4150 1400 4150
 Connection ~ 1950 3600
 $Comp
-L Transistor_BJT:2N3904 Q?
-U 1 1 5F083338
-P 6400 2800
-F 0 "Q?" H 6590 2846 50  0000 L CNN
-F 1 "2N3904" H 6590 2755 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6600 2725 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 6400 2800 50  0001 L CNN
-	1    6400 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D?
+L Device:D_Small D-ENC2
 U 1 1 5F0842FC
 P 6500 3100
-F 0 "D?" V 6546 3020 50  0000 R CNN
+F 0 "D-ENC2" V 6546 3020 50  0000 R CNN
 F 1 "D" V 6455 3020 50  0000 R CNN
 F 2 "" H 6500 3100 50  0001 C CNN
 F 3 "~" H 6500 3100 50  0001 C CNN
@@ -3963,21 +3844,10 @@ Connection ~ 6750 2600
 Wire Wire Line
 	6750 2600 6750 2050
 $Comp
-L Transistor_BJT:2N3904 Q?
-U 1 1 5F2C80CA
-P 6400 4350
-F 0 "Q?" H 6590 4396 50  0000 L CNN
-F 1 "2N3904" H 6590 4305 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6600 4275 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 6400 4350 50  0001 L CNN
-	1    6400 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D?
+L Device:D_Small D-ENC4
 U 1 1 5F2C8C8F
 P 6500 4650
-F 0 "D?" V 6546 4570 50  0000 R CNN
+F 0 "D-ENC4" V 6546 4570 50  0000 R CNN
 F 1 "D" V 6455 4570 50  0000 R CNN
 F 2 "" H 6500 4650 50  0001 C CNN
 F 3 "~" H 6500 4650 50  0001 C CNN
@@ -3992,37 +3862,14 @@ Wire Wire Line
 Wire Wire Line
 	6750 4150 6750 3600
 Connection ~ 6750 3600
-Text Label 6100 2650 0    50   ~ 0
-ENC2_PB
 Wire Wire Line
 	6100 2650 6100 2800
 Wire Wire Line
 	6100 2800 6200 2800
-$Comp
-L Transistor_BJT:2N3904 Q?
-U 1 1 5EDB46F0
-P 1250 2800
-F 0 "Q?" H 1440 2846 50  0000 L CNN
-F 1 "2N3904" H 1440 2755 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 1450 2725 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 1250 2800 50  0001 L CNN
-	1    1250 2800
-	1    0    0    -1  
-$EndComp
-Text Label 950  2650 0    50   ~ 0
-ENC1_PB
-Wire Wire Line
-	950  2650 950  2800
-Wire Wire Line
-	950  2800 1050 2800
-Text Label 1000 4200 0    50   ~ 0
-ENC3_PB
 Wire Wire Line
 	1000 4200 1000 4350
 Wire Wire Line
 	1000 4350 1100 4350
-Text Label 6100 4200 0    50   ~ 0
-ENC4_PB
 Wire Wire Line
 	6100 4200 6100 4350
 Wire Wire Line
@@ -4033,4 +3880,134 @@ Text Label 7600 -2000 0    50   ~ 0
 ENC3_PB
 Text Label 9850 -2000 0    50   ~ 0
 ENC4_PB
+$Comp
+L Transistor_BJT:PZT2222A Q-SOUND1
+U 1 1 5ED4B863
+P 8800 3550
+F 0 "Q-SOUND1" H 8991 3596 50  0000 L CNN
+F 1 "PZT2222A" H 8991 3505 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 9000 3475 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 8800 3550 50  0001 L CNN
+	1    8800 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:PZT2222A Q-ENC4
+U 1 1 5ED95E06
+P 6400 4350
+F 0 "Q-ENC4" H 6591 4396 50  0000 L CNN
+F 1 "PZT2222A" H 6591 4305 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 6600 4275 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 6400 4350 50  0001 L CNN
+	1    6400 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:PZT2222A Q-ENC2
+U 1 1 5ED98477
+P 6400 2800
+F 0 "Q-ENC2" H 6591 2846 50  0000 L CNN
+F 1 "PZT2222A" H 6591 2755 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 6600 2725 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 6400 2800 50  0001 L CNN
+	1    6400 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:PZT2222A Q-ENC1
+U 1 1 5ED9BCD2
+P 1250 2800
+F 0 "Q-ENC1" H 1441 2846 50  0000 L CNN
+F 1 "PZT2222A" H 1441 2755 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 1450 2725 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 1250 2800 50  0001 L CNN
+	1    1250 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:PZT2222A Q-ENC3
+U 1 1 5ED9CFA3
+P 1300 4350
+F 0 "Q-ENC3" H 1491 4396 50  0000 L CNN
+F 1 "PZT2222A" H 1491 4305 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 1500 4275 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 1300 4350 50  0001 L CNN
+	1    1300 4350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 13400 -6650
+Text Label -400 -6650 2    50   ~ 0
+Underglow
+Text Label 3100 5450 0    50   ~ 0
+Underglow
+Wire Wire Line
+	3100 5600 3100 5450
+Text Label 2850 -800 3    50   ~ 0
+ENC1_A
+Text Label 3250 -800 3    50   ~ 0
+ENC1_B
+Text Label 4900 -800 3    50   ~ 0
+ENC2_A
+Text Label 5300 -800 3    50   ~ 0
+ENC2_B
+Text Label 7100 -800 3    50   ~ 0
+ENC3_A
+Text Label 7500 -800 3    50   ~ 0
+ENC3_B
+Text Label 9350 -800 3    50   ~ 0
+ENC4_A
+Text Label 9750 -800 3    50   ~ 0
+ENC4_B
+Text Label 3100 6300 2    50   ~ 0
+ENC1_A
+Text Label 3100 6400 2    50   ~ 0
+ENC1_B
+Text Label 3100 6500 2    50   ~ 0
+ENC2_A
+Text Label 3100 6600 2    50   ~ 0
+ENC2_B
+Text Label 3100 6700 2    50   ~ 0
+ENC3_A
+Text Label 3100 7500 2    50   ~ 0
+ENC3_B
+Text Label 3100 7600 2    50   ~ 0
+ENC4_A
+Text Label 3100 7700 2    50   ~ 0
+ENC4_B
+$Comp
+L Device:D_Small D7
+U 1 1 5EC7C5CE
+P 6150 1450
+F 0 "D7" V 6196 1370 50  0000 R CNN
+F 1 "D" V 6105 1370 50  0000 R CNN
+F 2 "" H 6150 1450 50  0001 C CNN
+F 3 "~" H 6150 1450 50  0001 C CNN
+	1    6150 1450
+	0    -1   -1   0   
+$EndComp
+Text Label 5250 7300 0    50   ~ 0
+col7
+Wire Wire Line
+	950  2650 950  2800
+Wire Wire Line
+	950  2800 1050 2800
+Text Label 1000 4200 0    50   ~ 0
+ENC3_PB
+Text Label 6100 4200 0    50   ~ 0
+ENC4_PB
+Text Label 950  2650 0    50   ~ 0
+ENC1_PB
+Text Label 6100 2650 0    50   ~ 0
+ENC2_PB
+Text Label 8000 5100 2    50   ~ 0
+SCL
+Text Label 8000 5000 2    50   ~ 0
+SDA
+NoConn ~ 8400 4800
+Wire Wire Line
+	-100 -6350 1050 -6350
+Connection ~ 1050 -6350
+Wire Wire Line
+	3050 -3650 4100 -3650
+Connection ~ 4100 -3650
 $EndSCHEMATC

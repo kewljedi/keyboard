@@ -33,7 +33,10 @@ Parts
 ## HEARING
 
 ### keys
-Cherry MX... (haven't picked a color yet)
+[Gateron MX SMD Browns](https://www.amazon.com/Switches-Underglow-Compatible-Mechanical-Transparent/dp/B07K829KDW?th=1)
+
+### speakers
+Yes this board have two separate voices! It will play 8-bit tunes.
 
 ## FEELING
 

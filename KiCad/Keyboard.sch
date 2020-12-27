@@ -713,20 +713,6 @@ Wire Wire Line
 	9400 -5300 9850 -5300
 Wire Wire Line
 	10450 -5300 10850 -5300
-$Comp
-L power:GND #PWR0121
-U 1 1 5EDA7AF3
-P 6600 -4900
-F 0 "#PWR0121" H 6600 -5150 50  0001 C CNN
-F 1 "GND" H 6605 -5073 50  0000 C CNN
-F 2 "" H 6600 -4900 50  0001 C CNN
-F 3 "" H 6600 -4900 50  0001 C CNN
-	1    6600 -4900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6600 -4900 6600 -5000
-Connection ~ 6600 -5000
 Wire Wire Line
 	11450 -5300 11850 -5300
 $Comp
@@ -741,10 +727,6 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 0   -5675 50  0001 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6600 -5000 7100 -5000
-Wire Wire Line
-	-100 -5000 1050 -5000
-Wire Wire Line
 	200  -5300 750  -5300
 $Comp
 L LED:WS2812B KG2
@@ -757,9 +739,6 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1150 -5675 50  0001
 	1    1050 -5300
 	1    0    0    -1  
 $EndComp
-Connection ~ 1050 -5000
-Wire Wire Line
-	1050 -5000 2050 -5000
 $Comp
 L LED:WS2812B KG3
 U 1 1 5EDA7B19
@@ -771,9 +750,6 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2150 -5675 50  0001
 	1    2050 -5300
 	1    0    0    -1  
 $EndComp
-Connection ~ 2050 -5000
-Wire Wire Line
-	2050 -5000 3050 -5000
 $Comp
 L LED:WS2812B KG4
 U 1 1 5EDA7B23
@@ -785,9 +761,6 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3150 -5675 50  0001
 	1    3050 -5300
 	1    0    0    -1  
 $EndComp
-Connection ~ 3050 -5000
-Wire Wire Line
-	3050 -5000 4100 -5000
 $Comp
 L LED:WS2812B KG5
 U 1 1 5EDA7B2D
@@ -799,9 +772,6 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4200 -5675 50  0001
 	1    4100 -5300
 	1    0    0    -1  
 $EndComp
-Connection ~ 4100 -5000
-Wire Wire Line
-	4100 -5000 5100 -5000
 $Comp
 L LED:WS2812B KG6
 U 1 1 5EDA7B37
@@ -813,9 +783,6 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5200 -5675 50  0001
 	1    5100 -5300
 	1    0    0    -1  
 $EndComp
-Connection ~ 5100 -5000
-Wire Wire Line
-	5100 -5000 6050 -5000
 $Comp
 L LED:WS2812B KG7
 U 1 1 5EDA7B41
@@ -827,9 +794,6 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6150 -5675 50  0001
 	1    6050 -5300
 	1    0    0    -1  
 $EndComp
-Connection ~ 6050 -5000
-Wire Wire Line
-	6050 -5000 6600 -5000
 $Comp
 L LED:WS2812B KG8
 U 1 1 5EDA7B4B
@@ -841,9 +805,6 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7200 -5675 50  0001
 	1    7100 -5300
 	1    0    0    -1  
 $EndComp
-Connection ~ 7100 -5000
-Wire Wire Line
-	7100 -5000 8100 -5000
 $Comp
 L LED:WS2812B KG9
 U 1 1 5EDA7B55
@@ -855,9 +816,6 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8200 -5675 50  0001
 	1    8100 -5300
 	1    0    0    -1  
 $EndComp
-Connection ~ 8100 -5000
-Wire Wire Line
-	8100 -5000 9100 -5000
 $Comp
 L LED:WS2812B KG10
 U 1 1 5EDA7B5F
@@ -869,9 +827,6 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9200 -5675 50  0001
 	1    9100 -5300
 	1    0    0    -1  
 $EndComp
-Connection ~ 9100 -5000
-Wire Wire Line
-	9100 -5000 10150 -5000
 $Comp
 L LED:WS2812B KG11
 U 1 1 5EDA7B69
@@ -883,9 +838,6 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10250 -5675 50  000
 	1    10150 -5300
 	1    0    0    -1  
 $EndComp
-Connection ~ 10150 -5000
-Wire Wire Line
-	10150 -5000 11150 -5000
 $Comp
 L LED:WS2812B KG12
 U 1 1 5EDA7B73
@@ -897,9 +849,6 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 11250 -5675 50  000
 	1    11150 -5300
 	1    0    0    -1  
 $EndComp
-Connection ~ 11150 -5000
-Wire Wire Line
-	11150 -5000 12150 -5000
 $Comp
 L LED:WS2812B KG13
 U 1 1 5EDA7B7D
@@ -923,9 +872,6 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 13200 -5675 50  000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12150 -5000 13100 -5000
-Connection ~ 12150 -5000
-Wire Wire Line
 	12450 -5300 12800 -5300
 Wire Wire Line
 	1650 -3900 2100 -3900
@@ -937,17 +883,6 @@ Wire Wire Line
 	6500 -3950 6900 -3950
 Wire Wire Line
 	9400 -3900 9850 -3900
-$Comp
-L power:GND #PWR0122
-U 1 1 5EDC482D
-P 5700 -3650
-F 0 "#PWR0122" H 5700 -3900 50  0001 C CNN
-F 1 "GND" H 5705 -3823 50  0000 C CNN
-F 2 "" H 5700 -3650 50  0001 C CNN
-F 3 "" H 5700 -3650 50  0001 C CNN
-	1    5700 -3650
-	1    0    0    -1  
-$EndComp
 $Comp
 L LED:WS2812B KG16
 U 1 1 5EDC4867
@@ -970,8 +905,6 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4300 -4325 50  0001
 	1    4200 -3950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4200 -3650 5150 -3650
 $Comp
 L LED:WS2812B KG18
 U 1 1 5EDC487B
@@ -983,7 +916,6 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5250 -4325 50  0001
 	1    5150 -3950
 	1    0    0    -1  
 $EndComp
-Connection ~ 5150 -3650
 $Comp
 L LED:WS2812B KG19
 U 1 1 5EDC4885
@@ -995,9 +927,6 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6300 -4325 50  0001
 	1    6200 -3950
 	1    0    0    -1  
 $EndComp
-Connection ~ 6200 -3650
-Wire Wire Line
-	6200 -3650 7200 -3650
 $Comp
 L LED:WS2812B KG20
 U 1 1 5EDC488F
@@ -1020,8 +949,6 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9200 -4275 50  0001
 	1    9100 -3900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9100 -3600 9650 -3600
 $Comp
 L LED:WS2812B KG22
 U 1 1 5EDC48A3
@@ -1362,103 +1289,21 @@ F 3 "~" H 10450 -4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1650 -4350 1500 -4350
-Wire Wire Line
 	1350 -4350 1350 -4200
-Wire Wire Line
-	2700 -4350 2550 -4350
 Wire Wire Line
 	2400 -4350 2400 -4200
 Wire Wire Line
-	4500 -4400 4350 -4400
-Wire Wire Line
 	4200 -4400 4200 -4250
-Wire Wire Line
-	5450 -4400 5300 -4400
 Wire Wire Line
 	5150 -4400 5150 -4250
 Wire Wire Line
-	6500 -4400 6350 -4400
-Wire Wire Line
 	6200 -4400 6200 -4250
-Wire Wire Line
-	7500 -4400 7350 -4400
 Wire Wire Line
 	7200 -4400 7200 -4250
 Wire Wire Line
-	9400 -4350 9250 -4350
-Wire Wire Line
 	9100 -4350 9100 -4200
 Wire Wire Line
-	10450 -4350 10300 -4350
-Wire Wire Line
 	10150 -4350 10150 -4200
-Wire Wire Line
-	1500 -4450 1500 -4350
-Connection ~ 1500 -4350
-Wire Wire Line
-	1500 -4350 1350 -4350
-Wire Wire Line
-	2550 -4450 2550 -4350
-Connection ~ 2550 -4350
-Wire Wire Line
-	2550 -4350 2400 -4350
-Wire Wire Line
-	4350 -4500 4350 -4400
-Connection ~ 4350 -4400
-Wire Wire Line
-	4350 -4400 4200 -4400
-Wire Wire Line
-	5300 -4500 5300 -4400
-Connection ~ 5300 -4500
-Wire Wire Line
-	5300 -4500 4350 -4500
-Connection ~ 5300 -4400
-Wire Wire Line
-	5300 -4400 5150 -4400
-Wire Wire Line
-	6350 -4500 6350 -4400
-Connection ~ 6350 -4500
-Wire Wire Line
-	6350 -4500 5300 -4500
-Connection ~ 6350 -4400
-Wire Wire Line
-	6350 -4400 6200 -4400
-Wire Wire Line
-	7350 -4500 7350 -4400
-Wire Wire Line
-	7350 -4500 6350 -4500
-Connection ~ 7350 -4400
-Wire Wire Line
-	7350 -4400 7200 -4400
-Wire Wire Line
-	9250 -4450 9250 -4350
-Connection ~ 9250 -4350
-Wire Wire Line
-	9250 -4350 9100 -4350
-Wire Wire Line
-	10300 -4450 10300 -4350
-Connection ~ 10300 -4450
-Wire Wire Line
-	10300 -4450 9250 -4450
-Connection ~ 10300 -4350
-Wire Wire Line
-	10300 -4350 10150 -4350
-$Comp
-L power:VCC #PWR0143
-U 1 1 5FDFC7C3
-P 10600 -4450
-F 0 "#PWR0143" H 10600 -4600 50  0001 C CNN
-F 1 "VCC" V 10615 -4322 50  0000 L CNN
-F 2 "" H 10600 -4450 50  0001 C CNN
-F 3 "" H 10600 -4450 50  0001 C CNN
-	1    10600 -4450
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	10300 -4450 10600 -4450
-Wire Wire Line
-	2550 -4450 1500 -4450
 $Comp
 L Device:C_Small C-KG1
 U 1 1 5FE347C2
@@ -1672,8 +1517,6 @@ Wire Wire Line
 Wire Wire Line
 	50   -5750 50   -5850
 Wire Wire Line
-	50   -5850 1200 -5850
-Wire Wire Line
 	1200 -5850 1200 -5750
 Connection ~ 50   -5750
 Wire Wire Line
@@ -1682,115 +1525,65 @@ Connection ~ 1200 -5750
 Wire Wire Line
 	1200 -5750 1050 -5750
 Wire Wire Line
-	1200 -5850 2200 -5850
-Wire Wire Line
 	2200 -5850 2200 -5750
-Connection ~ 1200 -5850
 Connection ~ 2200 -5750
 Wire Wire Line
 	2200 -5750 2050 -5750
 Wire Wire Line
-	2200 -5850 3200 -5850
-Wire Wire Line
 	3200 -5850 3200 -5750
-Connection ~ 2200 -5850
 Connection ~ 3200 -5750
 Wire Wire Line
 	3200 -5750 3050 -5750
 Wire Wire Line
-	3200 -5850 4250 -5850
-Wire Wire Line
 	4250 -5850 4250 -5750
-Connection ~ 3200 -5850
 Connection ~ 4250 -5750
 Wire Wire Line
 	4250 -5750 4100 -5750
 Wire Wire Line
-	4250 -5850 5250 -5850
-Wire Wire Line
 	5250 -5850 5250 -5750
-Connection ~ 4250 -5850
 Connection ~ 5250 -5750
 Wire Wire Line
 	5250 -5750 5100 -5750
 Wire Wire Line
-	5250 -5850 6200 -5850
-Wire Wire Line
 	6200 -5850 6200 -5750
-Connection ~ 5250 -5850
 Connection ~ 6200 -5750
 Wire Wire Line
 	6200 -5750 6050 -5750
 Wire Wire Line
-	6200 -5850 7250 -5850
-Wire Wire Line
 	7250 -5850 7250 -5750
-Connection ~ 6200 -5850
 Connection ~ 7250 -5750
 Wire Wire Line
 	7250 -5750 7100 -5750
 Wire Wire Line
-	7250 -5850 8250 -5850
-Wire Wire Line
 	8250 -5850 8250 -5750
-Connection ~ 7250 -5850
 Connection ~ 8250 -5750
 Wire Wire Line
 	8250 -5750 8100 -5750
 Wire Wire Line
-	8250 -5850 9250 -5850
-Wire Wire Line
 	9250 -5850 9250 -5750
-Connection ~ 8250 -5850
 Connection ~ 9250 -5750
 Wire Wire Line
 	9250 -5750 9100 -5750
 Wire Wire Line
-	9250 -5850 10300 -5850
-Wire Wire Line
 	10300 -5850 10300 -5750
-Connection ~ 9250 -5850
 Connection ~ 10300 -5750
 Wire Wire Line
 	10300 -5750 10150 -5750
 Wire Wire Line
-	10300 -5850 11300 -5850
-Wire Wire Line
 	11300 -5850 11300 -5750
-Connection ~ 10300 -5850
 Connection ~ 11300 -5750
 Wire Wire Line
 	11300 -5750 11150 -5750
 Wire Wire Line
-	11300 -5850 12300 -5850
-Wire Wire Line
 	12300 -5850 12300 -5750
-Connection ~ 11300 -5850
 Connection ~ 12300 -5750
 Wire Wire Line
 	12300 -5750 12150 -5750
 Wire Wire Line
-	12300 -5850 13250 -5850
-Wire Wire Line
 	13250 -5850 13250 -5750
-Connection ~ 12300 -5850
 Connection ~ 13250 -5750
 Wire Wire Line
 	13250 -5750 13100 -5750
-$Comp
-L power:VCC #PWR0159
-U 1 1 6045409C
-P 13500 -5850
-F 0 "#PWR0159" H 13500 -6000 50  0001 C CNN
-F 1 "VCC" V 13515 -5722 50  0000 L CNN
-F 2 "" H 13500 -5850 50  0001 C CNN
-F 3 "" H 13500 -5850 50  0001 C CNN
-	1    13500 -5850
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	13250 -5850 13500 -5850
-Connection ~ 13250 -5850
 $Comp
 L Device:C_Small C-REG1
 U 1 1 60D39706
@@ -2634,133 +2427,69 @@ F 3 "~" H 9140 1100 50  0001 C CNN
 	1    9150 1150
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0118
-U 1 1 5ED16AAE
-P 6600 -6250
-F 0 "#PWR0118" H 6600 -6500 50  0001 C CNN
-F 1 "GND" H 6605 -6423 50  0000 C CNN
-F 2 "" H 6600 -6250 50  0001 C CNN
-F 3 "" H 6600 -6250 50  0001 C CNN
-	1    6600 -6250
-	1    0    0    -1  
-$EndComp
-Connection ~ 1050 -6350
-Wire Wire Line
-	-100 -6350 1050 -6350
 Text Label -400 -6650 2    50   ~ 0
 Underglow
 NoConn ~ 13400 -6650
-Connection ~ 13250 -7250
-Wire Wire Line
-	13250 -7250 13500 -7250
-$Comp
-L power:VCC #PWR0174
-U 1 1 60C43DA4
-P 13500 -7250
-F 0 "#PWR0174" H 13500 -7400 50  0001 C CNN
-F 1 "VCC" V 13515 -7122 50  0000 L CNN
-F 2 "" H 13500 -7250 50  0001 C CNN
-F 3 "" H 13500 -7250 50  0001 C CNN
-	1    13500 -7250
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	13250 -7100 13100 -7100
 Connection ~ 13250 -7100
-Connection ~ 12300 -7250
 Wire Wire Line
 	13250 -7250 13250 -7100
 Wire Wire Line
-	12300 -7250 13250 -7250
-Wire Wire Line
 	12300 -7100 12150 -7100
 Connection ~ 12300 -7100
-Connection ~ 11300 -7250
 Wire Wire Line
 	12300 -7250 12300 -7100
 Wire Wire Line
-	11300 -7250 12300 -7250
-Wire Wire Line
 	11300 -7100 11150 -7100
 Connection ~ 11300 -7100
-Connection ~ 10300 -7250
 Wire Wire Line
 	11300 -7250 11300 -7100
 Wire Wire Line
-	10300 -7250 11300 -7250
-Wire Wire Line
 	10300 -7100 10150 -7100
 Connection ~ 10300 -7100
-Connection ~ 9250 -7250
 Wire Wire Line
 	10300 -7250 10300 -7100
 Wire Wire Line
-	9250 -7250 10300 -7250
-Wire Wire Line
 	9250 -7100 9100 -7100
 Connection ~ 9250 -7100
-Connection ~ 8250 -7250
 Wire Wire Line
 	9250 -7250 9250 -7100
 Wire Wire Line
-	8250 -7250 9250 -7250
-Wire Wire Line
 	8250 -7100 8100 -7100
 Connection ~ 8250 -7100
-Connection ~ 7250 -7250
 Wire Wire Line
 	8250 -7250 8250 -7100
 Wire Wire Line
-	7250 -7250 8250 -7250
-Wire Wire Line
 	7250 -7100 7100 -7100
 Connection ~ 7250 -7100
-Connection ~ 6200 -7250
 Wire Wire Line
 	7250 -7250 7250 -7100
 Wire Wire Line
-	6200 -7250 7250 -7250
-Wire Wire Line
 	6200 -7100 6050 -7100
 Connection ~ 6200 -7100
-Connection ~ 5250 -7250
 Wire Wire Line
 	6200 -7250 6200 -7100
 Wire Wire Line
-	5250 -7250 6200 -7250
-Wire Wire Line
 	5250 -7100 5100 -7100
 Connection ~ 5250 -7100
-Connection ~ 4250 -7250
 Wire Wire Line
 	5250 -7250 5250 -7100
 Wire Wire Line
-	4250 -7250 5250 -7250
-Wire Wire Line
 	4250 -7100 4100 -7100
 Connection ~ 4250 -7100
-Connection ~ 3200 -7250
 Wire Wire Line
 	4250 -7250 4250 -7100
 Wire Wire Line
-	3200 -7250 4250 -7250
-Wire Wire Line
 	3200 -7100 3050 -7100
 Connection ~ 3200 -7100
-Connection ~ 2200 -7250
 Wire Wire Line
 	3200 -7250 3200 -7100
 Wire Wire Line
-	2200 -7250 3200 -7250
-Wire Wire Line
 	2200 -7100 2050 -7100
 Connection ~ 2200 -7100
-Connection ~ 1200 -7250
 Wire Wire Line
 	2200 -7250 2200 -7100
-Wire Wire Line
-	1200 -7250 2200 -7250
 Wire Wire Line
 	1200 -7100 1050 -7100
 Connection ~ 1200 -7100
@@ -2770,9 +2499,7 @@ Connection ~ 50   -7100
 Wire Wire Line
 	1200 -7250 1200 -7100
 Wire Wire Line
-	50   -7250 1200 -7250
-Wire Wire Line
-	50   -7100 50   -7250
+	50   -7100 50   -7200
 Wire Wire Line
 	-100 -7100 -100 -6950
 Wire Wire Line
@@ -2987,9 +2714,6 @@ Text Notes -900 -7350 0    50   ~ 0
 Underglow LEDs (UG1 - UG14)
 Wire Wire Line
 	12450 -6650 12800 -6650
-Connection ~ 12150 -6350
-Wire Wire Line
-	12150 -6350 13100 -6350
 $Comp
 L LED:WS2812B UG14
 U 1 1 5ED4CD48
@@ -3012,23 +2736,6 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 12250 -7025 50  000
 	1    12150 -6650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	11150 -6350 12150 -6350
-Connection ~ 11150 -6350
-$Comp
-L LED:WS2812B UG12
-U 1 1 5ECF2B33
-P 11150 -6650
-F 0 "UG12" H 11494 -6604 50  0000 L CNN
-F 1 "WS2812B" H 11494 -6695 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 11200 -6950 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 11250 -7025 50  0001 L TNN
-	1    11150 -6650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10150 -6350 11150 -6350
-Connection ~ 10150 -6350
 $Comp
 L LED:WS2812B UG11
 U 1 1 5ECF17F3
@@ -3040,9 +2747,6 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10250 -7025 50  000
 	1    10150 -6650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9100 -6350 10150 -6350
-Connection ~ 9100 -6350
 $Comp
 L LED:WS2812B UG10
 U 1 1 5ECF065B
@@ -3054,9 +2758,6 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9200 -7025 50  0001
 	1    9100 -6650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8100 -6350 9100 -6350
-Connection ~ 8100 -6350
 $Comp
 L LED:WS2812B UG9
 U 1 1 5ECEECA8
@@ -3068,9 +2769,6 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8200 -7025 50  0001
 	1    8100 -6650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7100 -6350 8100 -6350
-Connection ~ 7100 -6350
 $Comp
 L LED:WS2812B UG8
 U 1 1 5ECED959
@@ -3082,9 +2780,6 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7200 -7025 50  0001
 	1    7100 -6650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6050 -6350 6600 -6350
-Connection ~ 6050 -6350
 $Comp
 L LED:WS2812B UG7
 U 1 1 5ECEC491
@@ -3096,9 +2791,6 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6150 -7025 50  0001
 	1    6050 -6650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5100 -6350 6050 -6350
-Connection ~ 5100 -6350
 $Comp
 L LED:WS2812B UG6
 U 1 1 5ECEB075
@@ -3110,9 +2802,6 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5200 -7025 50  0001
 	1    5100 -6650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4100 -6350 5100 -6350
-Connection ~ 4100 -6350
 $Comp
 L LED:WS2812B UG5
 U 1 1 5ECE96DE
@@ -3124,9 +2813,6 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4200 -7025 50  0001
 	1    4100 -6650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3050 -6350 4100 -6350
-Connection ~ 3050 -6350
 $Comp
 L LED:WS2812B UG4
 U 1 1 5ECE8465
@@ -3138,9 +2824,6 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3150 -7025 50  0001
 	1    3050 -6650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2050 -6350 3050 -6350
-Connection ~ 2050 -6350
 $Comp
 L LED:WS2812B UG3
 U 1 1 5ECE6C92
@@ -3152,8 +2835,6 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2150 -7025 50  0001
 	1    2050 -6650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1050 -6350 2050 -6350
 $Comp
 L LED:WS2812B UG2
 U 1 1 5ECE509D
@@ -3167,8 +2848,6 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1150 -7025 50  0001
 $EndComp
 Wire Wire Line
 	200  -6650 750  -6650
-Wire Wire Line
-	6600 -6350 7100 -6350
 $Comp
 L LED:WS2812B UG1
 U 1 1 5ECB683B
@@ -3182,9 +2861,6 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 0   -7025 50  0001 
 $EndComp
 Wire Wire Line
 	11450 -6650 11850 -6650
-Connection ~ 6600 -6350
-Wire Wire Line
-	6600 -6250 6600 -6350
 Wire Wire Line
 	10450 -6650 10850 -6650
 Wire Wire Line
@@ -4208,57 +3884,853 @@ Wire Wire Line
 NoConn ~ 10350 -3100
 Wire Wire Line
 	10450 -3450 10450 -3900
-$Comp
-L power:GND #PWR0186
-U 1 1 5F687F42
-P 1850 -3600
-F 0 "#PWR0186" H 1850 -3850 50  0001 C CNN
-F 1 "GND" H 1855 -3773 50  0000 C CNN
-F 2 "" H 1850 -3600 50  0001 C CNN
-F 3 "" H 1850 -3600 50  0001 C CNN
-	1    1850 -3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0187
-U 1 1 5F714F57
-P 9650 -3600
-F 0 "#PWR0187" H 9650 -3850 50  0001 C CNN
-F 1 "GND" H 9655 -3773 50  0000 C CNN
-F 2 "" H 9650 -3600 50  0001 C CNN
-F 3 "" H 9650 -3600 50  0001 C CNN
-	1    9650 -3600
-	1    0    0    -1  
-$EndComp
-Connection ~ 9650 -3600
-Wire Wire Line
-	9650 -3600 10150 -3600
-Wire Wire Line
-	5150 -3650 5700 -3650
-Connection ~ 5700 -3650
-Wire Wire Line
-	5700 -3650 6200 -3650
-Wire Wire Line
-	1350 -3600 1850 -3600
-Connection ~ 1850 -3600
-Wire Wire Line
-	1850 -3600 2400 -3600
-Wire Wire Line
-	4350 -4500 2550 -4500
-Wire Wire Line
-	2550 -4500 2550 -4450
-Connection ~ 4350 -4500
-Connection ~ 2550 -4450
-Wire Wire Line
-	7350 -4500 9250 -4500
-Wire Wire Line
-	9250 -4500 9250 -4450
-Connection ~ 7350 -4500
-Connection ~ 9250 -4450
 Wire Wire Line
 	350  -3200 350  -3100
 Wire Wire Line
 	350  -3400 350  -4600
 Wire Wire Line
 	350  -4600 13400 -4600
+$Comp
+L power:VCC #PWR?
+U 1 1 5FC126D7
+P 50 -7200
+F 0 "#PWR?" H 50  -7350 50  0001 C CNN
+F 1 "VCC" H 65  -7027 50  0000 C CNN
+F 2 "" H 50  -7200 50  0001 C CNN
+F 3 "" H 50  -7200 50  0001 C CNN
+	1    50   -7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5FC2CE9D
+P 1200 -7250
+F 0 "#PWR?" H 1200 -7400 50  0001 C CNN
+F 1 "VCC" H 1215 -7077 50  0000 C CNN
+F 2 "" H 1200 -7250 50  0001 C CNN
+F 3 "" H 1200 -7250 50  0001 C CNN
+	1    1200 -7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5FC2EAE9
+P 2200 -7250
+F 0 "#PWR?" H 2200 -7400 50  0001 C CNN
+F 1 "VCC" H 2215 -7077 50  0000 C CNN
+F 2 "" H 2200 -7250 50  0001 C CNN
+F 3 "" H 2200 -7250 50  0001 C CNN
+	1    2200 -7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5FC30BC5
+P 3200 -7250
+F 0 "#PWR?" H 3200 -7400 50  0001 C CNN
+F 1 "VCC" H 3215 -7077 50  0000 C CNN
+F 2 "" H 3200 -7250 50  0001 C CNN
+F 3 "" H 3200 -7250 50  0001 C CNN
+	1    3200 -7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5FC32ACB
+P 4250 -7250
+F 0 "#PWR?" H 4250 -7400 50  0001 C CNN
+F 1 "VCC" H 4265 -7077 50  0000 C CNN
+F 2 "" H 4250 -7250 50  0001 C CNN
+F 3 "" H 4250 -7250 50  0001 C CNN
+	1    4250 -7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5FC34B22
+P 5250 -7250
+F 0 "#PWR?" H 5250 -7400 50  0001 C CNN
+F 1 "VCC" H 5265 -7077 50  0000 C CNN
+F 2 "" H 5250 -7250 50  0001 C CNN
+F 3 "" H 5250 -7250 50  0001 C CNN
+	1    5250 -7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5FC36A72
+P 6200 -7250
+F 0 "#PWR?" H 6200 -7400 50  0001 C CNN
+F 1 "VCC" H 6215 -7077 50  0000 C CNN
+F 2 "" H 6200 -7250 50  0001 C CNN
+F 3 "" H 6200 -7250 50  0001 C CNN
+	1    6200 -7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5FC386ED
+P 7250 -7250
+F 0 "#PWR?" H 7250 -7400 50  0001 C CNN
+F 1 "VCC" H 7265 -7077 50  0000 C CNN
+F 2 "" H 7250 -7250 50  0001 C CNN
+F 3 "" H 7250 -7250 50  0001 C CNN
+	1    7250 -7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5FC3A59D
+P 8250 -7250
+F 0 "#PWR?" H 8250 -7400 50  0001 C CNN
+F 1 "VCC" H 8265 -7077 50  0000 C CNN
+F 2 "" H 8250 -7250 50  0001 C CNN
+F 3 "" H 8250 -7250 50  0001 C CNN
+	1    8250 -7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5FC3C17E
+P 9250 -7250
+F 0 "#PWR?" H 9250 -7400 50  0001 C CNN
+F 1 "VCC" H 9265 -7077 50  0000 C CNN
+F 2 "" H 9250 -7250 50  0001 C CNN
+F 3 "" H 9250 -7250 50  0001 C CNN
+	1    9250 -7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5FC3DFC1
+P 10300 -7250
+F 0 "#PWR?" H 10300 -7400 50  0001 C CNN
+F 1 "VCC" H 10315 -7077 50  0000 C CNN
+F 2 "" H 10300 -7250 50  0001 C CNN
+F 3 "" H 10300 -7250 50  0001 C CNN
+	1    10300 -7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5FC3FEE9
+P 11300 -7250
+F 0 "#PWR?" H 11300 -7400 50  0001 C CNN
+F 1 "VCC" H 11315 -7077 50  0000 C CNN
+F 2 "" H 11300 -7250 50  0001 C CNN
+F 3 "" H 11300 -7250 50  0001 C CNN
+	1    11300 -7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5FC41CC8
+P 12300 -7250
+F 0 "#PWR?" H 12300 -7400 50  0001 C CNN
+F 1 "VCC" H 12315 -7077 50  0000 C CNN
+F 2 "" H 12300 -7250 50  0001 C CNN
+F 3 "" H 12300 -7250 50  0001 C CNN
+	1    12300 -7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5FC43B23
+P 13250 -7250
+F 0 "#PWR?" H 13250 -7400 50  0001 C CNN
+F 1 "VCC" H 13265 -7077 50  0000 C CNN
+F 2 "" H 13250 -7250 50  0001 C CNN
+F 3 "" H 13250 -7250 50  0001 C CNN
+	1    13250 -7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5FC5D252
+P 50 -5850
+F 0 "#PWR?" H 50  -6000 50  0001 C CNN
+F 1 "VCC" H 65  -5677 50  0000 C CNN
+F 2 "" H 50  -5850 50  0001 C CNN
+F 3 "" H 50  -5850 50  0001 C CNN
+	1    50   -5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5FC5F48F
+P 1200 -5850
+F 0 "#PWR?" H 1200 -6000 50  0001 C CNN
+F 1 "VCC" H 1215 -5677 50  0000 C CNN
+F 2 "" H 1200 -5850 50  0001 C CNN
+F 3 "" H 1200 -5850 50  0001 C CNN
+	1    1200 -5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5FC6124A
+P 2200 -5850
+F 0 "#PWR?" H 2200 -6000 50  0001 C CNN
+F 1 "VCC" H 2215 -5677 50  0000 C CNN
+F 2 "" H 2200 -5850 50  0001 C CNN
+F 3 "" H 2200 -5850 50  0001 C CNN
+	1    2200 -5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5FC62E1D
+P 3200 -5850
+F 0 "#PWR?" H 3200 -6000 50  0001 C CNN
+F 1 "VCC" H 3215 -5677 50  0000 C CNN
+F 2 "" H 3200 -5850 50  0001 C CNN
+F 3 "" H 3200 -5850 50  0001 C CNN
+	1    3200 -5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5FC64CDF
+P 4250 -5850
+F 0 "#PWR?" H 4250 -6000 50  0001 C CNN
+F 1 "VCC" H 4265 -5677 50  0000 C CNN
+F 2 "" H 4250 -5850 50  0001 C CNN
+F 3 "" H 4250 -5850 50  0001 C CNN
+	1    4250 -5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5FC66BA5
+P 5250 -5850
+F 0 "#PWR?" H 5250 -6000 50  0001 C CNN
+F 1 "VCC" H 5265 -5677 50  0000 C CNN
+F 2 "" H 5250 -5850 50  0001 C CNN
+F 3 "" H 5250 -5850 50  0001 C CNN
+	1    5250 -5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5FC68B1A
+P 6200 -5850
+F 0 "#PWR?" H 6200 -6000 50  0001 C CNN
+F 1 "VCC" H 6215 -5677 50  0000 C CNN
+F 2 "" H 6200 -5850 50  0001 C CNN
+F 3 "" H 6200 -5850 50  0001 C CNN
+	1    6200 -5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5FC6A670
+P 7250 -5850
+F 0 "#PWR?" H 7250 -6000 50  0001 C CNN
+F 1 "VCC" H 7265 -5677 50  0000 C CNN
+F 2 "" H 7250 -5850 50  0001 C CNN
+F 3 "" H 7250 -5850 50  0001 C CNN
+	1    7250 -5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5FC6C23F
+P 8250 -5850
+F 0 "#PWR?" H 8250 -6000 50  0001 C CNN
+F 1 "VCC" H 8265 -5677 50  0000 C CNN
+F 2 "" H 8250 -5850 50  0001 C CNN
+F 3 "" H 8250 -5850 50  0001 C CNN
+	1    8250 -5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5FC6DDB5
+P 9250 -5850
+F 0 "#PWR?" H 9250 -6000 50  0001 C CNN
+F 1 "VCC" H 9265 -5677 50  0000 C CNN
+F 2 "" H 9250 -5850 50  0001 C CNN
+F 3 "" H 9250 -5850 50  0001 C CNN
+	1    9250 -5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5FC6FB09
+P 10300 -5850
+F 0 "#PWR?" H 10300 -6000 50  0001 C CNN
+F 1 "VCC" H 10315 -5677 50  0000 C CNN
+F 2 "" H 10300 -5850 50  0001 C CNN
+F 3 "" H 10300 -5850 50  0001 C CNN
+	1    10300 -5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5FC71966
+P 11300 -5850
+F 0 "#PWR?" H 11300 -6000 50  0001 C CNN
+F 1 "VCC" H 11315 -5677 50  0000 C CNN
+F 2 "" H 11300 -5850 50  0001 C CNN
+F 3 "" H 11300 -5850 50  0001 C CNN
+	1    11300 -5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5FC738A5
+P 12300 -5850
+F 0 "#PWR?" H 12300 -6000 50  0001 C CNN
+F 1 "VCC" H 12315 -5677 50  0000 C CNN
+F 2 "" H 12300 -5850 50  0001 C CNN
+F 3 "" H 12300 -5850 50  0001 C CNN
+	1    12300 -5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5FC75764
+P 13250 -5850
+F 0 "#PWR?" H 13250 -6000 50  0001 C CNN
+F 1 "VCC" H 13265 -5677 50  0000 C CNN
+F 2 "" H 13250 -5850 50  0001 C CNN
+F 3 "" H 13250 -5850 50  0001 C CNN
+	1    13250 -5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FC8FAFE
+P 13100 -6350
+F 0 "#PWR?" H 13100 -6600 50  0001 C CNN
+F 1 "GND" H 13105 -6523 50  0000 C CNN
+F 2 "" H 13100 -6350 50  0001 C CNN
+F 3 "" H 13100 -6350 50  0001 C CNN
+	1    13100 -6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FC91BC9
+P 12150 -6350
+F 0 "#PWR?" H 12150 -6600 50  0001 C CNN
+F 1 "GND" H 12155 -6523 50  0000 C CNN
+F 2 "" H 12150 -6350 50  0001 C CNN
+F 3 "" H 12150 -6350 50  0001 C CNN
+	1    12150 -6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B UG12
+U 1 1 5ECF2B33
+P 11150 -6650
+F 0 "UG12" H 11494 -6604 50  0000 L CNN
+F 1 "WS2812B" H 11494 -6695 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 11200 -6950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 11250 -7025 50  0001 L TNN
+	1    11150 -6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FC9B7C2
+P 11150 -6350
+F 0 "#PWR?" H 11150 -6600 50  0001 C CNN
+F 1 "GND" H 11155 -6523 50  0000 C CNN
+F 2 "" H 11150 -6350 50  0001 C CNN
+F 3 "" H 11150 -6350 50  0001 C CNN
+	1    11150 -6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FC9D4DC
+P 10150 -6350
+F 0 "#PWR?" H 10150 -6600 50  0001 C CNN
+F 1 "GND" H 10155 -6523 50  0000 C CNN
+F 2 "" H 10150 -6350 50  0001 C CNN
+F 3 "" H 10150 -6350 50  0001 C CNN
+	1    10150 -6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FC9EDE4
+P 9100 -6350
+F 0 "#PWR?" H 9100 -6600 50  0001 C CNN
+F 1 "GND" H 9105 -6523 50  0000 C CNN
+F 2 "" H 9100 -6350 50  0001 C CNN
+F 3 "" H 9100 -6350 50  0001 C CNN
+	1    9100 -6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FCA06F8
+P 8100 -6350
+F 0 "#PWR?" H 8100 -6600 50  0001 C CNN
+F 1 "GND" H 8105 -6523 50  0000 C CNN
+F 2 "" H 8100 -6350 50  0001 C CNN
+F 3 "" H 8100 -6350 50  0001 C CNN
+	1    8100 -6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FCA2018
+P 7100 -6350
+F 0 "#PWR?" H 7100 -6600 50  0001 C CNN
+F 1 "GND" H 7105 -6523 50  0000 C CNN
+F 2 "" H 7100 -6350 50  0001 C CNN
+F 3 "" H 7100 -6350 50  0001 C CNN
+	1    7100 -6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FCA3944
+P 6050 -6350
+F 0 "#PWR?" H 6050 -6600 50  0001 C CNN
+F 1 "GND" H 6055 -6523 50  0000 C CNN
+F 2 "" H 6050 -6350 50  0001 C CNN
+F 3 "" H 6050 -6350 50  0001 C CNN
+	1    6050 -6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FCA6B79
+P 5100 -6350
+F 0 "#PWR?" H 5100 -6600 50  0001 C CNN
+F 1 "GND" H 5105 -6523 50  0000 C CNN
+F 2 "" H 5100 -6350 50  0001 C CNN
+F 3 "" H 5100 -6350 50  0001 C CNN
+	1    5100 -6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FCA86CC
+P 4100 -6350
+F 0 "#PWR?" H 4100 -6600 50  0001 C CNN
+F 1 "GND" H 4105 -6523 50  0000 C CNN
+F 2 "" H 4100 -6350 50  0001 C CNN
+F 3 "" H 4100 -6350 50  0001 C CNN
+	1    4100 -6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FCAA01C
+P 3050 -6350
+F 0 "#PWR?" H 3050 -6600 50  0001 C CNN
+F 1 "GND" H 3055 -6523 50  0000 C CNN
+F 2 "" H 3050 -6350 50  0001 C CNN
+F 3 "" H 3050 -6350 50  0001 C CNN
+	1    3050 -6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FCAC2DD
+P 2050 -6350
+F 0 "#PWR?" H 2050 -6600 50  0001 C CNN
+F 1 "GND" H 2055 -6523 50  0000 C CNN
+F 2 "" H 2050 -6350 50  0001 C CNN
+F 3 "" H 2050 -6350 50  0001 C CNN
+	1    2050 -6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FCADC45
+P 1050 -6350
+F 0 "#PWR?" H 1050 -6600 50  0001 C CNN
+F 1 "GND" H 1055 -6523 50  0000 C CNN
+F 2 "" H 1050 -6350 50  0001 C CNN
+F 3 "" H 1050 -6350 50  0001 C CNN
+	1    1050 -6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FCAF5B9
+P -100 -6350
+F 0 "#PWR?" H -100 -6600 50  0001 C CNN
+F 1 "GND" H -95 -6523 50  0000 C CNN
+F 2 "" H -100 -6350 50  0001 C CNN
+F 3 "" H -100 -6350 50  0001 C CNN
+	1    -100 -6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FCCB5FA
+P 13100 -5000
+F 0 "#PWR?" H 13100 -5250 50  0001 C CNN
+F 1 "GND" H 13105 -5173 50  0000 C CNN
+F 2 "" H 13100 -5000 50  0001 C CNN
+F 3 "" H 13100 -5000 50  0001 C CNN
+	1    13100 -5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FCCCF7A
+P 12150 -5000
+F 0 "#PWR?" H 12150 -5250 50  0001 C CNN
+F 1 "GND" H 12155 -5173 50  0000 C CNN
+F 2 "" H 12150 -5000 50  0001 C CNN
+F 3 "" H 12150 -5000 50  0001 C CNN
+	1    12150 -5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FCCE906
+P 11150 -5000
+F 0 "#PWR?" H 11150 -5250 50  0001 C CNN
+F 1 "GND" H 11155 -5173 50  0000 C CNN
+F 2 "" H 11150 -5000 50  0001 C CNN
+F 3 "" H 11150 -5000 50  0001 C CNN
+	1    11150 -5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FCD029E
+P 10150 -5000
+F 0 "#PWR?" H 10150 -5250 50  0001 C CNN
+F 1 "GND" H 10155 -5173 50  0000 C CNN
+F 2 "" H 10150 -5000 50  0001 C CNN
+F 3 "" H 10150 -5000 50  0001 C CNN
+	1    10150 -5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FCD1C42
+P 9100 -5000
+F 0 "#PWR?" H 9100 -5250 50  0001 C CNN
+F 1 "GND" H 9105 -5173 50  0000 C CNN
+F 2 "" H 9100 -5000 50  0001 C CNN
+F 3 "" H 9100 -5000 50  0001 C CNN
+	1    9100 -5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FCD35F2
+P 8100 -5000
+F 0 "#PWR?" H 8100 -5250 50  0001 C CNN
+F 1 "GND" H 8105 -5173 50  0000 C CNN
+F 2 "" H 8100 -5000 50  0001 C CNN
+F 3 "" H 8100 -5000 50  0001 C CNN
+	1    8100 -5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FCD4FAE
+P 7100 -5000
+F 0 "#PWR?" H 7100 -5250 50  0001 C CNN
+F 1 "GND" H 7105 -5173 50  0000 C CNN
+F 2 "" H 7100 -5000 50  0001 C CNN
+F 3 "" H 7100 -5000 50  0001 C CNN
+	1    7100 -5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FCD6976
+P 6050 -5000
+F 0 "#PWR?" H 6050 -5250 50  0001 C CNN
+F 1 "GND" H 6055 -5173 50  0000 C CNN
+F 2 "" H 6050 -5000 50  0001 C CNN
+F 3 "" H 6050 -5000 50  0001 C CNN
+	1    6050 -5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FCD834A
+P 5100 -5000
+F 0 "#PWR?" H 5100 -5250 50  0001 C CNN
+F 1 "GND" H 5105 -5173 50  0000 C CNN
+F 2 "" H 5100 -5000 50  0001 C CNN
+F 3 "" H 5100 -5000 50  0001 C CNN
+	1    5100 -5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FCD9D2A
+P 4100 -5000
+F 0 "#PWR?" H 4100 -5250 50  0001 C CNN
+F 1 "GND" H 4105 -5173 50  0000 C CNN
+F 2 "" H 4100 -5000 50  0001 C CNN
+F 3 "" H 4100 -5000 50  0001 C CNN
+	1    4100 -5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FCDB716
+P 3050 -5000
+F 0 "#PWR?" H 3050 -5250 50  0001 C CNN
+F 1 "GND" H 3055 -5173 50  0000 C CNN
+F 2 "" H 3050 -5000 50  0001 C CNN
+F 3 "" H 3050 -5000 50  0001 C CNN
+	1    3050 -5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FCDD10E
+P 2050 -5000
+F 0 "#PWR?" H 2050 -5250 50  0001 C CNN
+F 1 "GND" H 2055 -5173 50  0000 C CNN
+F 2 "" H 2050 -5000 50  0001 C CNN
+F 3 "" H 2050 -5000 50  0001 C CNN
+	1    2050 -5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FCDEB12
+P 1050 -5000
+F 0 "#PWR?" H 1050 -5250 50  0001 C CNN
+F 1 "GND" H 1055 -5173 50  0000 C CNN
+F 2 "" H 1050 -5000 50  0001 C CNN
+F 3 "" H 1050 -5000 50  0001 C CNN
+	1    1050 -5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FCE0522
+P -100 -5000
+F 0 "#PWR?" H -100 -5250 50  0001 C CNN
+F 1 "GND" H -95 -5173 50  0000 C CNN
+F 2 "" H -100 -5000 50  0001 C CNN
+F 3 "" H -100 -5000 50  0001 C CNN
+	1    -100 -5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FCE6B8E
+P 1350 -3600
+F 0 "#PWR?" H 1350 -3850 50  0001 C CNN
+F 1 "GND" H 1355 -3773 50  0000 C CNN
+F 2 "" H 1350 -3600 50  0001 C CNN
+F 3 "" H 1350 -3600 50  0001 C CNN
+	1    1350 -3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FCE85AA
+P 2400 -3600
+F 0 "#PWR?" H 2400 -3850 50  0001 C CNN
+F 1 "GND" H 2405 -3773 50  0000 C CNN
+F 2 "" H 2400 -3600 50  0001 C CNN
+F 3 "" H 2400 -3600 50  0001 C CNN
+	1    2400 -3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FCF1FB0
+P 4200 -3650
+F 0 "#PWR?" H 4200 -3900 50  0001 C CNN
+F 1 "GND" H 4205 -3823 50  0000 C CNN
+F 2 "" H 4200 -3650 50  0001 C CNN
+F 3 "" H 4200 -3650 50  0001 C CNN
+	1    4200 -3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FCF39D8
+P 5150 -3650
+F 0 "#PWR?" H 5150 -3900 50  0001 C CNN
+F 1 "GND" H 5155 -3823 50  0000 C CNN
+F 2 "" H 5150 -3650 50  0001 C CNN
+F 3 "" H 5150 -3650 50  0001 C CNN
+	1    5150 -3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FCF540C
+P 6200 -3650
+F 0 "#PWR?" H 6200 -3900 50  0001 C CNN
+F 1 "GND" H 6205 -3823 50  0000 C CNN
+F 2 "" H 6200 -3650 50  0001 C CNN
+F 3 "" H 6200 -3650 50  0001 C CNN
+	1    6200 -3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FCF6E4C
+P 7200 -3650
+F 0 "#PWR?" H 7200 -3900 50  0001 C CNN
+F 1 "GND" H 7205 -3823 50  0000 C CNN
+F 2 "" H 7200 -3650 50  0001 C CNN
+F 3 "" H 7200 -3650 50  0001 C CNN
+	1    7200 -3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FCFE112
+P 9100 -3600
+F 0 "#PWR?" H 9100 -3850 50  0001 C CNN
+F 1 "GND" H 9105 -3773 50  0000 C CNN
+F 2 "" H 9100 -3600 50  0001 C CNN
+F 3 "" H 9100 -3600 50  0001 C CNN
+	1    9100 -3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FD00312
+P 10150 -3600
+F 0 "#PWR?" H 10150 -3850 50  0001 C CNN
+F 1 "GND" H 10155 -3773 50  0000 C CNN
+F 2 "" H 10150 -3600 50  0001 C CNN
+F 3 "" H 10150 -3600 50  0001 C CNN
+	1    10150 -3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 -4350 1500 -4350
+Wire Wire Line
+	2400 -4350 2550 -4350
+Wire Wire Line
+	4200 -4400 4350 -4400
+Wire Wire Line
+	5150 -4400 5300 -4400
+Wire Wire Line
+	6200 -4400 6350 -4400
+Wire Wire Line
+	7200 -4400 7350 -4400
+Wire Wire Line
+	9100 -4350 9250 -4350
+Wire Wire Line
+	10150 -4350 10300 -4350
+$Comp
+L power:VCC #PWR?
+U 1 1 5FD1F6F5
+P 1500 -4350
+F 0 "#PWR?" H 1500 -4500 50  0001 C CNN
+F 1 "VCC" H 1515 -4177 50  0000 C CNN
+F 2 "" H 1500 -4350 50  0001 C CNN
+F 3 "" H 1500 -4350 50  0001 C CNN
+	1    1500 -4350
+	1    0    0    -1  
+$EndComp
+Connection ~ 1500 -4350
+Wire Wire Line
+	1500 -4350 1650 -4350
+$Comp
+L power:VCC #PWR?
+U 1 1 5FD2113D
+P 2550 -4350
+F 0 "#PWR?" H 2550 -4500 50  0001 C CNN
+F 1 "VCC" H 2565 -4177 50  0000 C CNN
+F 2 "" H 2550 -4350 50  0001 C CNN
+F 3 "" H 2550 -4350 50  0001 C CNN
+	1    2550 -4350
+	1    0    0    -1  
+$EndComp
+Connection ~ 2550 -4350
+Wire Wire Line
+	2550 -4350 2700 -4350
+$Comp
+L power:VCC #PWR?
+U 1 1 5FD22B95
+P 4350 -4400
+F 0 "#PWR?" H 4350 -4550 50  0001 C CNN
+F 1 "VCC" H 4365 -4227 50  0000 C CNN
+F 2 "" H 4350 -4400 50  0001 C CNN
+F 3 "" H 4350 -4400 50  0001 C CNN
+	1    4350 -4400
+	1    0    0    -1  
+$EndComp
+Connection ~ 4350 -4400
+Wire Wire Line
+	4350 -4400 4500 -4400
+$Comp
+L power:VCC #PWR?
+U 1 1 5FD245FD
+P 5300 -4400
+F 0 "#PWR?" H 5300 -4550 50  0001 C CNN
+F 1 "VCC" H 5315 -4227 50  0000 C CNN
+F 2 "" H 5300 -4400 50  0001 C CNN
+F 3 "" H 5300 -4400 50  0001 C CNN
+	1    5300 -4400
+	1    0    0    -1  
+$EndComp
+Connection ~ 5300 -4400
+Wire Wire Line
+	5300 -4400 5450 -4400
+$Comp
+L power:VCC #PWR?
+U 1 1 5FD26075
+P 6350 -4400
+F 0 "#PWR?" H 6350 -4550 50  0001 C CNN
+F 1 "VCC" H 6365 -4227 50  0000 C CNN
+F 2 "" H 6350 -4400 50  0001 C CNN
+F 3 "" H 6350 -4400 50  0001 C CNN
+	1    6350 -4400
+	1    0    0    -1  
+$EndComp
+Connection ~ 6350 -4400
+Wire Wire Line
+	6350 -4400 6500 -4400
+$Comp
+L power:VCC #PWR?
+U 1 1 5FD27AFD
+P 7350 -4400
+F 0 "#PWR?" H 7350 -4550 50  0001 C CNN
+F 1 "VCC" H 7365 -4227 50  0000 C CNN
+F 2 "" H 7350 -4400 50  0001 C CNN
+F 3 "" H 7350 -4400 50  0001 C CNN
+	1    7350 -4400
+	1    0    0    -1  
+$EndComp
+Connection ~ 7350 -4400
+Wire Wire Line
+	7350 -4400 7500 -4400
+$Comp
+L power:VCC #PWR?
+U 1 1 5FD29595
+P 9250 -4350
+F 0 "#PWR?" H 9250 -4500 50  0001 C CNN
+F 1 "VCC" H 9265 -4177 50  0000 C CNN
+F 2 "" H 9250 -4350 50  0001 C CNN
+F 3 "" H 9250 -4350 50  0001 C CNN
+	1    9250 -4350
+	1    0    0    -1  
+$EndComp
+Connection ~ 9250 -4350
+Wire Wire Line
+	9250 -4350 9400 -4350
+$Comp
+L power:VCC #PWR?
+U 1 1 5FD2B03D
+P 10300 -4350
+F 0 "#PWR?" H 10300 -4500 50  0001 C CNN
+F 1 "VCC" H 10315 -4177 50  0000 C CNN
+F 2 "" H 10300 -4350 50  0001 C CNN
+F 3 "" H 10300 -4350 50  0001 C CNN
+	1    10300 -4350
+	1    0    0    -1  
+$EndComp
+Connection ~ 10300 -4350
+Wire Wire Line
+	10300 -4350 10450 -4350
 $EndSCHEMATC
